@@ -6,8 +6,8 @@ This project is a Spotify Dashboard application that fetches data from the Spoti
 
 1. **Clone the repository:**
    ```bash
-   git clone <repository-url>
-   cd spotify-dashboard
+   git clone https://github.com/krishnavamsi-nk/Spotify_Assignment.git
+   cd Spotify_Assignment
 
 ##Install dependencies:
 npm install
