@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Spotify Dashboard</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+</head>
+<body>
+  <div class="container">
+    <h1>Spotify Dashboard</h1>
+    <div>
+      <label for="filterPopularity">Filter by Popularity:</label>
+      <select id="filterPopularity">
+        <option value="0-20">0-20</option>
+        <option value="21-40">21-40</option>
+        <option value="41-60">41-60</option>
+        <option value="61-80">61-80</option>
+        <option value="81-100">81-100</option>
+      </select>
+    </div>
+
+    <div class="chart-container">
+      <h2 class="chart-title">Popularity Bar Chart</h2>
+      <canvas id="barChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+      <h2 class="chart-title">Popularity Line Chart</h2>
+      <canvas id="lineChart"></canvas>
+    </div>
+
+    <div class="chart-container">
+      <h2 class="chart-title">Popularity Pie Chart</h2>
+      <canvas id="pieChart"></canvas>
+    </div>
+  </div>
+  <script src="script.js"></script>
+</body>
+</html>
